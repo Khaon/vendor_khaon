@@ -7,7 +7,7 @@ PRODUCT_COPY_FILES += \
 
 #BBS
 PRODUCT_COPY_FILES += \
-   vendor/khaon_misc/BBS/BetterBatteryStats_xdaedition_2.0.0.0RC2.apk:system/priv-app/BetterBatteryStats_xdaedition_2.0.0.0RC2/BetterBatteryStats_xdaedition_2.0.0.0RC2.apk
+   vendor/khaon_misc/BBS/BetterBatteryStats_xdaedition_2.0.0.0RC5.apk:system/priv-app/BetterBatteryStats_xdaedition_2.0.0.0RC5/BetterBatteryStats_xdaedition_2.0.0.0RC5.apk
 
 #Add Apollo 
 PRODUCT_PACKAGES += \
