@@ -12,3 +12,7 @@ PRODUCT_COPY_FILES += \
 #Add Apollo 
 PRODUCT_PACKAGES += \
     Apollo
+    
+#Add v4a library
+PRODUCT_COPY_FILES += \
+	vendor/khaon_misc/viper4android/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
