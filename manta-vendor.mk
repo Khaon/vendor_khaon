@@ -16,3 +16,8 @@ PRODUCT_PACKAGES += \
 #Add v4a library
 PRODUCT_COPY_FILES += \
 	vendor/khaon_misc/viper4android/libv4a_fx_ics.so:system/lib/soundfx/libv4a_fx_ics.so
+
+# Chromium Prebuilt
+ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
+-include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
+endif
