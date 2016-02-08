@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	Viper4Android
 
-# Chromium Prebuilt
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
--include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
-endif
+# Apollo
+PRODUCT_PACKAGES += \
+	Apollo
