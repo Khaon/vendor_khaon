@@ -22,3 +22,6 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
+
+PRODUCT_COPY_FILES += \
+	vendor/khaon/AdAway/hosts:system/etc/hosts
